@@ -1,29 +1,51 @@
 #!/usr/bin/python3
+def add(a, b):
+    """My addition function
 
-if __name__ == "__main__":
-    import sys
-    from calculator_1 import add, sub, mul, div
+    Args:
+        a: first integer
+        b: second integer
 
-    argv = sys.argv[1:]
-    argv_count = len(argv)
-    operators = ["+", "-", "*", "/"]
+    Returns:
+        The return value. a + b
+    """
+    return (a + b)
 
-    if argv_count != 3:
-        print("Usage: ./100-my_calculator.py <a> <operator> <b>")
-        exit(1)
-    elif argv[1] not in operators:
-        print("Unknown operator. Available operators: +, -, * and /")
-        exit(1)
-    else:
-        a = int(argv[0])
-        operator = argv[1]
-        b = int(argv[2])
 
-        if operator == "+":
-            print("{:d} + {:d} = {:d}".format(a, b, add(a, b)))
-        elif operator == "-":
-            print("{:d} - {:d} = {:d}".format(a, b, sub(a, b)))
-        elif operator == "*":
-            print("{:d} * {:d} = {:d}".format(a, b, mul(a, b)))
-        elif operator == "/":
-            print("{:d} / {:d} = {:d}".format(a, b, div(a, b)))
+def sub(a, b):
+    """My subtraction function
+
+    Args:
+        a: first integer
+        b: second integer
+
+    Returns:
+        The return value. a - b
+    """
+    return (a - b)
+
+
+def mul(a, b):
+    """My multiplication function
+
+    Args:
+        a: first integer
+        b: second integer
+
+    Returns:
+        The return value. a * b
+    """
+    return (a * b)
+
+
+def div(a, b):
+    """My division function
+
+    Args:
+        a: first integer
+        b: second integer
+
+    Returns:
+        The return value. a / b
+    """
+    return int(a / b)
