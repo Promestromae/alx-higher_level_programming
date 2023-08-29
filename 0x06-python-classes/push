@@ -1,0 +1,4 @@
+#!/bin/bash
+git add .
+git commit -m 'am a winner'
+git push
