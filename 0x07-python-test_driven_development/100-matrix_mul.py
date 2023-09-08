@@ -1,13 +1,22 @@
-#!/usr/bin/python3 
- """Module matrix_mul 
- Multiplies two matrices and returns the result. 
- """ 
+#!/usr/bin/python3
+"""
+    100-matrix_mul Module
+""" 
   
   
  def matrix_mul(m_a, m_b): 
-     """Return the matrix resulting of 
-     the multiplication of m_a and m_b.""" 
-  
+     """	
+  	 Multiplies 2 matrices
+
+        Args:
+            m_a: first matrix(2D List)
+            m_b: second matrix(2D List)
+
+        Returns:
+            the product of two matrices
+    """
+
+    prev_len = 0
      if type(m_a) is not list: 
          raise TypeError("m_a must be a list") 
      if type(m_b) is not list: 
