@@ -1,4 +1,5 @@
-ild class Square that inherits from parent Rectangle"""
+#!/usr/bin/python3
+"""a child class Square that inherits from parent Rectangle"""
 
 # Import Rectangle from 9-rectangle.py module
 Rectangle = __import__('9-rectangle').Rectangle

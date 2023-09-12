@@ -1,4 +1,5 @@
-ild class Rectangle that inherits from BaseGeometry"""
+#!/usr/bin/python3
+"""a child class Rectangle that inherits from BaseGeometry"""
 
 
 # Import BaseGeometry from 7-base_geometry module
