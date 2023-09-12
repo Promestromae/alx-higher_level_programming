@@ -1,4 +1,6 @@
-erts a text to a file, after each line containing a specific string"""
+#!/usr/bin/python3
+"""inserts a text to a file, after each line containing a specific string"""
+
 
 
 def append_after(filename="", search_string="", new_string=""):

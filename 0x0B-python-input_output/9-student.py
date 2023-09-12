@@ -2,9 +2,9 @@
 """ This Module that defines the class Student
 """
 
- This
+
 class Student:
-    """ Class to create student instances """
+    """ Class to represent student instances """
 
     def __init__(self, first_name, last_name, age):
         """ define special method to initialize """
