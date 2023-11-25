@@ -1,4 +1,4 @@
-!/usr/bin/node
+#!/usr/bin/node
 // This script updates an object by adding a new function that increments the integer value
 const myObject = {
   type: 'object',
